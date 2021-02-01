@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+<body>
+  <header class="header">
+    <h1 class="title">{{site.title}}</h1>
+  </header>
+  <main class="main">
+      {{ content }}
+  </main>
+  <footer class="copyright">
+    <!--<p>{{site.titlefooter}} &copy; {{ site.time | date: '%Y' }}</p>-->
+    <!--<p>&copy; {{site.titlefooter}} {{ site.time | date: '%Y' }}</p>-->
+    <!--<p>&copy; {{ site.time | date: '%Y' }} {{site.titlefooter}} | {{site.powered}}</p>-->
+    <!--<p>&copy; {{ site.time | date: '%Y' }} {{site.titlefooter}} | <a href="{{site.urlpowered}}" target="_blank">{{site.powered}}</a></p>-->
+    <!--<p>&copy; {{ site.time | date: '%Y' }} {{site.titlefooter}} | {{site.powered}}</p>-->
+    <!--<p>&copy; {{ site.time | date: '%Y' }} {{site.titlefooter}} <i class="fa fa-facebook" aria-hidden="true"></i> {{site.powered}}</p>-->
+    <p>&copy; {{ site.time | date: '%Y' }} {{site.titlefooter}} <i class="fa fa-hand-spock-o" aria-hidden="true"></i> {{site.powered}}</p>
+  </footer>
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/vegas.min.js"></script>
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>
