@@ -15,6 +15,6 @@ email: info@devinconde.com
 description: > # this means to ignore newlines until "baseurl:"
   Bienvenido al espacio de Devin R. Conde M.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://root.devinconde.com/" # the base hostname & protocol for your web site
+url: "https://root.devinconde.com" # the base hostname & protocol for your web site
 # Build settings
 markdown: kramdown
